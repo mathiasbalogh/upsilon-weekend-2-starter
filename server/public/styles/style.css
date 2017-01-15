@@ -17,21 +17,35 @@
   text-align: center;
   font-size: 24px;
   margin: 40px auto;
+  border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
 }
 nav {
   text-align: center;
 }
 .attr {
-  padding-top: 20px;
+  padding-top: 20%;
   border: 3px;
+  max-width: 400px;
+  padding-left: 15%;
 }
-#next{
-  display: inline-block;
+#next {
+  display: inline-block;;
   margin-left: 10px;
-  margin-right: auto;
+  margin-right: 30%;
+  margin-bottom: 20px;
 }
 #prev {
-  display: inline-block;
-  margin-left: auto;
+  display: inline-block;;
+  margin-left: 43%;
   margin-right: 10px;
+  margin-bottom: 20px;
+}
+h1 {
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  background-color: rgba(255, 237, 0, 0.5);
+  text-align: center;
+  margin: 0 0;
 }
