@@ -4,7 +4,6 @@
   width: 20px;
   background-color: black;
   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
-
 }
 .highlighted {
   display: inline-block;
@@ -21,6 +20,8 @@
   font-size: 24px;
   margin: 40px auto;
   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+  box-shadow: inset 0px 20px 112px 4px rgba(122,122,122,1), 0px 20px 112px 10px rgba(0,0,0,0.6);
+
 }
 nav {
   text-align: center;
@@ -32,14 +33,13 @@ nav {
   padding-left: 15%;
 }
 #next {
-  display: inline-block;;
+  display: inline-block;
   margin-left: 10px;
-  margin-right: 30%;
   margin-bottom: 20px;
 }
 #prev {
-  display: inline-block;;
-  margin-left: 43%;
+  display: inline-block;
+  margin-left: 45%;
   margin-right: 10px;
   margin-bottom: 20px;
 }
